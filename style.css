@@ -13,6 +13,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 section .half-width{
     width: 50%;
@@ -22,6 +23,9 @@ section .half-width img{
     width: 80%;
     
 }
+section .half-width a{
+    margin-top: 15px;
+}
 .link-button{
     text-decoration: none;
     font-weight: bold;
@@ -29,9 +33,18 @@ section .half-width img{
     color: rgb(255, 255, 255);
     padding: 10px 40px;
     border-radius: 5px;
+    margin-top: 15px;
 }
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width p{
+    padding-right: 97px;
 }
